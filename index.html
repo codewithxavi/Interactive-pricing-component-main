@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Frontend Mentor | Interactive pricing component</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="js/scripts.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="heading">Simple, traffic-based pricing</h1>
+    <h3 class="subheading">Sign-up for our 30-day trial. No credit card required.</h3>
+    <img src="./images/pattern-circles.svg" alt="pattern" class="pattern">
+    <main class="card">
+      <h3 class="card__heading">Pageviews</h3>
+      <input type="range" name="medidor" id="medidor" class="medidor" name="type" min="0" max="4" value="0"
+        aria-label="type">
+      <span class="card__price"><span id="precios"></span> /month</span>
+      <div class="card__billing">
+        <span class="monthly">Monthly billing</span>
+        <input type="checkbox" name="checkbox" id="checkbox" class="checkbox">
+        <span class="yearly">Yearly Billing</span>
+        <span class="discount"> -25%</span>
+      </div>
+      <hr>
+      <div class="info__checked">
+        <img src="./images/icon-check.svg" alt="Icon check">
+        <p>Unlimited websites</p> <br>
+        <img src="./images/icon-check.svg" alt="Icon check">
+        <p> 100% data ownership</p> <br>
+        <img src="./images/icon-check.svg" alt="Icon check">
+        <p>Email reports</p>
+      </div>
+      <button class="cta">Start my trial</button>
+    </main>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">xavicoder</a>.
+    </div>
+  </div>
+</body>
+
+</html>
